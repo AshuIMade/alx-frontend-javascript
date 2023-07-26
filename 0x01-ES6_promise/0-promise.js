@@ -1,3 +1,3 @@
 export default function getResponseFromAPI() {
-    return new Promise((res) => res());
+    return new Promise((resolve) => resolve());
 }
