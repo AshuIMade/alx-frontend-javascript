@@ -1,13 +1,11 @@
-const cleanSet = (set, startString) => {
-  const strings = [];
-
-  if (startString === '' || typeof startString !== 'string') return '';
-  set.forEach((s) => {
-    if (typeof s === 'string' && s.startsWith(startString)) {
-      strings.push(s.slice(startString.length));
-    }
-  });
-  return strings.join('-');
+const groceriesList = () => {
+  const map = new Map();
+  map.set('Apples', 10);
+  map.set('Tomatoes', 10);
+  map.set('Pasta', 1);
+  map.set('Rice', 1);
+  map.set('Banana', 5);
+  return map;
 };
 
-export default cleanSet;
+export default groceriesList;
