@@ -1,0 +1,12 @@
+{
+  "name": "0x03-es6_data_manipulation",
+  "version": "1.0.0",
+  "description": "* How to use map, filter and reduce on arrays * Typed arrays * The Set, Map, and Weak link data structures",
+  "main": "0-main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
